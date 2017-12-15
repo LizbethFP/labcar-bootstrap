@@ -33,44 +33,50 @@
   </header>
   <section id="travel" class="container-fluid">
     <div class="row hero">
-      <!-- <div class="taxi-container">
-        <img src="assets/images/taxi.jpg" alt="taxi" class="col-md-12 col-xs-12">
-      </div> -->
-      <div class="info-yellow">
+      <div class="info-yellow col-xs-offset-3 col-xs-9 show">
+        <h2>Comienza a viajar</h2>
+        <h2>con <img src="assets/images/logoBlanco.png" alt="logo"></h2>
+        <button type="button" name="button" class="btn-white btn-white-mobile">Descarga el app</button>
+      </div>
+      <div class="info-yellow col-md-offset-8 col-md-4 hidden">
         <h2>Disfruta del viaje</h2>
         <h2>Eres dueño de tu tiempo</h2>
         <p>Viaja con <img src="assets/images/logoBlanco.png" alt="logo"></p>
-        <button type="button" name="button" class="text-uppercase">regístrate</button>
+        <button type="button" name="button" class="text-uppercase btn-white">regístrate</button>
         <hr>
-        <button type="button" name="button">Conviértete en un conductor</button>
-        <div class="reference-info-yellow">
+        <button type="button" name="button" class="btn-white">Conviértete en un conductor</button>
+        <div class="reference-info-yellow col-md-offset-5">
           <p>O bien</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="app">
-    <!-- caja que solo se mostrará en la versión móvil -->
-    <div class="app-info-and-photo-mobile show">
-      <figure>
-        <figcaption>La nueva app</figcaption>
-        <img src="assets/images/iPhone6Plus.png" alt="app-phone">
-      </figure>
-      <p>Llega a tu destino aún más rápido.</p>
-    </div>
-    <!-- caja que solo se mostrará en la versión de computadora -->
-    <div class="app-info-and-photo-desktop hidden">
-      <div class="container-app-desktop">
-        <img src="assets/images/iPhone6Plus.png" alt="app-phone">
-        <article class="app-info">
-          <h3>Descarga la nueva app</h3>
-          <p>
-            La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.
-          <br>
-            Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.
-          </p>
-        </article>
+  <section id="app" class="container-fluid">
+    <div class="row">
+      <!-- caja que solo se mostrará en la versión móvil -->
+      <div class="app-info-and-photo-mobile show">
+        <figure>
+          <figcaption>La nueva app</figcaption>
+          <img src="assets/images/iPhone6Plus.png" alt="app-phone">
+        </figure>
+        <p>Llega a tu destino aún más rápido.</p>
+      </div>
+      <!-- caja que solo se mostrará en la versión de computadora -->
+      <div class="app-info-and-photo-desktop hidden col-md-8">
+        <div class="container-app-desktop">
+          <img src="assets/images/iPhone6Plus.png" alt="app-phone" class="col-md-5">
+          <article class="app-info col-md-offset-1 col-md-5">
+            <h2>Descarga la nueva app</h2>
+            <p>
+              La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.
+            </p>
+            <p>
+              Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.
+            </p>
+
+          </article>
+        </div>
       </div>
     </div>
   </section>
@@ -79,7 +85,7 @@
     <div class="row">
       <div class="col-md-4 col-md-offset-8 drivers-info">
         <article>
-          <h3>Conduce cuando quieras</h3>
+          <h2>Conduce cuando quieras</h2>
           <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
           <button type="button" name="button">Conviértete en conductor</button>
         </article>
@@ -91,7 +97,7 @@
   <section id="fees" class="container-fluid">
     <div class="row">
       <div class="fees-info col-xs-11 col-md-offset-1 col-md-5">
-        <h3>Tarifas</h3>
+        <h2>Tarifas</h2>
         <p>Consulta las tarifas LabCar aquí</p>
         <div class="first-input">
           <img src="assets/images/shape.png" alt="circle">
@@ -101,7 +107,7 @@
           <img src="assets/images/shape2.png" alt="circle">
           <input type="text" name="" value="" placeholder="Carolina, Ciudad de los Deportes, Ciudad de México, México">
         </div>
-        <button type="button" name="button" class="text-uppercase">¡trazar ruta!</button>
+        <button type="button" name="button" class="text-uppercase col-xs-offset-4 btn-white">¡trazar ruta!</button>
       </div>
       <div class="col-xs-11 col-md-5 map-container">
         <figure class="map">
