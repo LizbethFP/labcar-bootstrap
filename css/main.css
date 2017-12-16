@@ -2,7 +2,6 @@
 * {
   font: normal normal 400 18px/24px 'Raleway', sans-serif;
   color: #fff;
-
 }
 
 a {
@@ -59,6 +58,10 @@ section {
   /* float: left; */
 }
 
+.li-fixed {
+  font: normal normal 400 18px/24px 'Raleway', sans-serif;
+}
+
 /* Sección de travel */
 #travel {
   background-image: url('../assets/images/taxi.jpg');
@@ -73,17 +76,10 @@ section {
   padding: 2%;
 }
 
-/*.background-city {
-  background-image: url('../assets/images/taxi.jpg');
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: cover;
-  width: 100%;
-  height: 545px;
-}*/
 .info-yellow h2:first-of-type {
   line-height: 0;
 }
+
 .info-yellow p {
   margin-top: 1.5em;
 }
@@ -154,11 +150,8 @@ figure {
 
 .app-info {
   text-align: justify;
-  text-justify: inter-word;
 }
-.app-info article {
-  vertical-align: middle;
-}
+
 .app-info p:first-of-type, .app-info h2 {
   margin-bottom: 1em;
 }
@@ -266,12 +259,6 @@ footer p {
   background-color: inherit;
 }
 
-/* versión móvil */
-/* @media (min-width: 768px) {
-
-  }
-} */
-
 /* versión de escritorio */
 @media (min-width: 992px) {
  .hidden {
@@ -293,4 +280,138 @@ footer p {
  .apps-market {
    transform: translate(0,220px);
  }
+}
+
+/* Ventana para iniciar sesión */
+.modal-header {
+  padding-bottom: 0;
+}
+.modal-header, .modal-content form, .modal-body, .modal-content form i, .modal-content form span {
+  color: #000;
+}
+.modal-header img {
+  width: 35%;
+  text-align: center;
+}
+.modal-content {
+  background-color: #08ac9d;
+}
+.form-modal-green-grey {
+  background-color: #f5f5f5;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.first-input {
+  margin-bottom: 0.5em;
+}
+
+.btn-orange {
+  background-color: #f7b617;
+  border: none;
+  border-radius: 0.3125em;
+  color: #fff;
+  padding: 2.5%;
+  margin-left: 3.5em;
+  margin-bottom: 0.5em;
+}
+.form-text span, .form-text a {
+  font-size: 14px;
+  color: #bd081c;
+}
+
+/* Ventana de registro */
+.modal-content-grey {
+  background-color: #a9a9a9;
+}
+
+.btn-black {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 0.3125em;
+  padding: 1.5%;
+  display: block;
+  width: 100%;
+}
+
+.text-middle {
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.text-middle > p {
+  color: #000;
+  font-size: 16px;
+}
+
+.form-modal-grey {
+  background-color: inherit;
+}
+
+.form-modal-grey input:nth-child(-n+2) {
+  width: 49%;
+  margin-bottom: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.form-modal-grey input:nth-child(n+3) {
+  width: 100%;
+  margin-bottom: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.btn-grey {
+  background-color:#dddddd;
+  color: #000;
+  border: none;
+  border-radius: 0.3125em;
+  padding: 1.5%;
+  display: block;
+  width: 100%;
+}
+
+.btn-light-blue {
+  background-color: #5bc0de;
+  color: #fff;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Ventana para convertirse en conductor */
+.form-modal-grey label {
+  color: #000;
+}
+select {
+  margin-bottom: 1.5em;
+  width: 100%;
+  border-radius: 0.3125em;
+  padding: 0.5em;
+}
+
+.select-brand {
+  margin-bottom: 0;
+}
+
+.brand-footer p {
+  color: #777777;
+}
+
+.brand-footer p > a {
+  color: #0000ff;
+}
+
+.license-plate-info p {
+  color: #000;
+}
+
+.license-plate-info p:first-of-type {
+  font-weight: bold;
+}
+
+.license-plate-info input {
+  width: 100%;
 }
