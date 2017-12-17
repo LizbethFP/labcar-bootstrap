@@ -169,13 +169,20 @@ figure {
   height: 28.125em;
   padding: 3.25em 1em 1.25em 1.5em;
   background-color: #000;
-  opacity: 0.5;
+  opacity: 0.6;
+  /* position: static;
+  z-index: -1
+  /* filter: blur(2px);
+  -webkit-filter: blur(2px); */ */
 }
 
 .drivers-info article {
-  opacity: 20;
   color: #fff;
 }
+
+/* .drivers-info article h2, .drivers-info article p, .drivers-info article button {
+  z-index: 2;
+} */
 
 .drivers-info p {
   margin-bottom: 1em;
