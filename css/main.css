@@ -168,8 +168,8 @@ figure {
 .drivers-info {
   height: 28.125em;
   padding: 3.25em 1em 1.25em 1.5em;
-  background-color: #000;
-  opacity: 0.6;
+  background-color: rgba(0,0,0,0.5);
+  /* opacity: 0.6; */
   /* position: static;
   z-index: -1
   /* filter: blur(2px);
